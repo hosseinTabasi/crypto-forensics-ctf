@@ -1,0 +1,25 @@
+# Sample CLI / experiment capture
+# Generated during local study run (offline)
+
+ID                     TIER CAT         PTS  TITLE
+------------------------------------------------------------------------
+classic-caesar         A    classic     100  Caesar Shift Recovery
+classic-vigenere       A    classic     150  Vigenère with Known Period
+classic-mono           A    classic     200  Monoalphabetic Frequency Puzzle
+classic-xor            A    classic     100  Single-Byte XOR
+rsa-tiny               B    rsa         150  Tiny Textbook RSA Decrypt
+rsa-stereo             B    rsa         200  Small-e Stereotyped Plaintext
+rsa-pkcs-oracle        B    rsa         250  PKCS#1 v1.5 Oracle Simulation (Offline)
+rsa-common-mod         B    rsa         200  Common Modulus Related Messages
+gcm-nonce-reuse        C    aes-gcm     250  AES-GCM Nonce Reuse XOR Recovery
+gcm-forbidden          C    aes-gcm     150  Forbidden Key/Nonce Pair Detection
+gcm-tag-strip          C    aes-gcm     150  Missing Tag Rejection
+gcm-aad-mismatch       C    aes-gcm     200  AAD Mismatch Forensic
+
+12 challenges — author Hossein Tabasi
+
+FLAG{GCM_NONCE_REUS}
+CORRECT
+
+wrote /workspace/crypto-forensics-ctf/artifacts/run_20260905T165937Z_412e5d22.json
+kit_status={'cryptolab_kit': True, 'cryptolab_kit_version': '0.1.0', 'cryptolab_suite': True, 'cryptolab_suite_version': '0.1.0'}

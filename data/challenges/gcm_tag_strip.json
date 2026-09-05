@@ -1,0 +1,9 @@
+{
+  "fixture_version": "1.0.0",
+  "key_hex": "00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff",
+  "nonce_hex": "0102030405060708090a0b0c",
+  "ciphertext_with_tag_hex": "1b0771c88d79d12889d8cba0158370731771753dff8b7041dd0118a08c6a0ade28",
+  "ciphertext_stripped_hex": "1b0771c88d79d12889d8cba01583707317",
+  "answer": "FLAG{TAG_REQUIRED_REJECT}",
+  "note": "EDUCATIONAL: GCM without authentication tag must be rejected. SAFE path: always verify the full tag via AESGCM.decrypt."
+}

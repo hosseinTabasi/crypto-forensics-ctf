@@ -1,0 +1,10 @@
+{
+  "fixture_version": "1.0.0",
+  "key_hex": "00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff",
+  "nonce_hex": "11223344556677889900aabb",
+  "ciphertext_with_tag_hex": "b5b006de81a8836b4b7f41da5258795208a6eb6ebb7829a687c08d5bca875c2f7d",
+  "aad_correct_hex": "6865616465722d7631",
+  "aad_wrong_hex": "6865616465722d7632",
+  "answer": "FLAG{AAD_BIND_OK}",
+  "note": "EDUCATIONAL: AAD mismatch causes InvalidTag. Recover plaintext only with the correct AAD. SAFE path: bind AAD tightly."
+}

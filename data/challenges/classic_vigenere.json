@@ -1,0 +1,7 @@
+{
+  "fixture_version": "1.0.0",
+  "key": "LAB",
+  "known_period": 3,
+  "ciphertext": "EHF BUJNK CCOXY FPI JVXPT ZVFC TIP LBKY EZG BRAJY AOO AHLIO FNUTL USE TPCSPT BAPFLRT QLBR{VJREOPRF_VEZ_TS_MLB}",
+  "answer": "FLAG{VIGENERE_KEY_IS_LAB}"
+}

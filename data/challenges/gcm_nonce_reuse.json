@@ -1,0 +1,10 @@
+{
+  "fixture_version": "1.0.0",
+  "key_hex": "00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff",
+  "nonce_hex": "000000000000000000000001",
+  "ciphertext1_hex": "9eebdd859458cef303d1162d010738d4533354879e09cfa5d49190dfecc7f928502bf79c",
+  "ciphertext2_hex": "93e9d395a140ddf21dd61737071a33d9465726dbb125305eb9392d7b4db7f71816f5252f",
+  "known_plaintext1_hex": "4b4e4f574e5f504c41494e544558545f50312121",
+  "answer": "FLAG{GCM_NONCE_REUS}",
+  "note": "EDUCATIONAL: nonce reuse under the same key. Given P1 and C1||T1, C2||T2, recover P2 via C1 XOR C2 = P1 XOR P2 (ciphertext portions before tag). SAFE path: never reuse nonces."
+}

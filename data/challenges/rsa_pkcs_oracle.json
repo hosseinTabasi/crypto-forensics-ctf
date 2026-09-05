@@ -1,0 +1,41 @@
+{
+  "fixture_version": "1.0.0",
+  "n": 62773913,
+  "e": 65537,
+  "block_len": 48,
+  "oracle_transcript": [
+    {
+      "query_id": 0,
+      "ciphertext_label": "c0",
+      "padding_valid": false
+    },
+    {
+      "query_id": 1,
+      "ciphertext_label": "c1",
+      "padding_valid": true
+    },
+    {
+      "query_id": 2,
+      "ciphertext_label": "c2",
+      "padding_valid": false
+    },
+    {
+      "query_id": 3,
+      "ciphertext_label": "c3",
+      "padding_valid": true
+    },
+    {
+      "query_id": 4,
+      "ciphertext_label": "c4",
+      "padding_valid": true
+    }
+  ],
+  "success_query_ids": [
+    1,
+    3,
+    4
+  ],
+  "recovered_message_hex": "464c41477b504b43535f4f5241434c455f53494d7d",
+  "answer": "FLAG{PKCS_ORACLE_SIM}",
+  "note": "EDUCATIONAL offline PKCS#1 v1.5 padding-oracle SIMULATION. FakeOracle answers only from this canned transcript. No network service. Not a real Bleichenbacher exploit toolkit."
+}

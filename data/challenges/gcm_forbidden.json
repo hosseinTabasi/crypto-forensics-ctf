@@ -1,0 +1,32 @@
+{
+  "fixture_version": "1.0.0",
+  "records": [
+    {
+      "id": "rec0",
+      "key_id": "K1",
+      "nonce_hex": "aaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "id": "rec1",
+      "key_id": "K2",
+      "nonce_hex": "bbbbbbbbbbbbbbbbbbbbbbbb"
+    },
+    {
+      "id": "rec2",
+      "key_id": "K1",
+      "nonce_hex": "cccccccccccccccccccccccc"
+    },
+    {
+      "id": "rec3",
+      "key_id": "K2",
+      "nonce_hex": "bbbbbbbbbbbbbbbbbbbbbbbb"
+    },
+    {
+      "id": "rec4",
+      "key_id": "K3",
+      "nonce_hex": "dddddddddddddddddddddddd"
+    }
+  ],
+  "answer": "FLAG{FORBIDDEN_PAIR_rec1_rec3}",
+  "note": "EDUCATIONAL: detect forbidden repeated (key_id, nonce) pair."
+}

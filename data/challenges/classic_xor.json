@@ -1,0 +1,6 @@
+{
+  "fixture_version": "1.0.0",
+  "key_byte": 66,
+  "ciphertext_hex": "040e030539110b0c050e071d001b16071d1a0d101d09071b1d723a76703f",
+  "answer": "FLAG{SINGLE_BYTE_XOR_KEY_0x42}"
+}

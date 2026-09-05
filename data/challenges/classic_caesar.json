@@ -1,0 +1,6 @@
+{
+  "fixture_version": "1.0.0",
+  "shift": 7,
+  "ciphertext": "MSHN{ZOPMA_AOL_HSWOHILA_IF_ZLCLU}",
+  "answer": "FLAG{SHIFT_THE_ALPHABET_BY_SEVEN}"
+}

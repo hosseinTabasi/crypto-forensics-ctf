@@ -1,0 +1,11 @@
+{
+  "fixture_version": "1.0.0",
+  "n": 58483,
+  "e_a": 17,
+  "e_b": 23,
+  "c_a": 39062,
+  "c_b": 38805,
+  "plaintext_int": 4242,
+  "answer": "FLAG{COMMON_MODULUS_4242}",
+  "note": "EDUCATIONAL common-modulus related-message demo with canned keys."
+}

@@ -1,0 +1,9 @@
+{
+  "fixture_version": "1.0.0",
+  "n": 3233,
+  "e": 17,
+  "ciphertext": 1306,
+  "answer": "FLAG{RSA_TINY_1337}",
+  "plaintext_int": 1337,
+  "note": "EDUCATIONAL tiny modulus; factor n then decrypt."
+}

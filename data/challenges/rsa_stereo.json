@@ -1,0 +1,10 @@
+{
+  "fixture_version": "1.0.0",
+  "n": 98587,
+  "e": 3,
+  "ciphertext": 74088,
+  "stereotype_hint": "plaintext is a small integer; recover via integer cube root",
+  "answer": "FLAG{STEREO_CUBE_ROOT}",
+  "plaintext_int": 42,
+  "note": "EDUCATIONAL: small e with m^e < n leaks via integer root."
+}

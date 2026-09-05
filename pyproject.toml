@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-forensics-ctf"
+version = "0.1.0"
+description = "Offline cryptography forensics CTF pack: classic ciphers, RSA padding footguns, and AES-GCM misuse labs extending cryptolab-kit."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Hossein Tabasi"},
+]
+requires-python = ">=3.11"
+keywords = [
+    "cryptography",
+    "ctf",
+    "forensics",
+    "educational",
+    "aes-gcm",
+    "rsa",
+    "classic-ciphers",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Security :: Cryptography",
+    "Typing :: Typed",
+]
+dependencies = [
+    "cryptography>=42.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+kit = [
+    "cryptolab-kit",
+]
+suite = [
+    "cryptolab-suite",
+]
+
+[project.urls]
+Homepage = "https://github.com/hosseinTabasi/crypto-forensics-ctf"
+Issues = "https://github.com/hosseinTabasi/crypto-forensics-ctf/issues"
+Related-Kit = "https://github.com/hosseinTabasi/cryptolab-kit"
+Related-Suite = "https://github.com/hosseinTabasi/cryptolab-suite"
+
+[project.scripts]
+crypto-forensics = "crypto_forensics.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+crypto_forensics = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
